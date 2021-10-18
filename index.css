@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.texto {
+    width: 50%;
+    height: 100%;
+    float: right;
+    text-align: center;
+    margin-top: 150px;
+}
+.imagem {
+    width: 50%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    margin-top:150px ;
+}
+.imagem img {
+    width: 300px;
+    border-radius: 50%;
+}
+
+.botao button {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    padding: 20px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.botao button a{
+    color: black;
+}
+.botao button:hover {
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+    transition: 0.5s;
+}
+
+
+@media (max-width: 992px) {
+   .texto {
+       width: 100%;
+   }
+   .imagem {
+       width: 100%;
+   }
+   body {
+    overflow-y: scroll;
+    height: auto;
+}
+   
+  }
+   
