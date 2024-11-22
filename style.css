@@ -1,0 +1,91 @@
+/* Estilos gerais */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 90%;
+  max-width: 400px;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Perfil */
+.profile-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+h1 {
+  font-size: 24px;
+  margin: 10px 0;
+  color: #333;
+}
+
+p {
+  color: #666;
+  font-size: 14px;
+  margin: 5px 0 20px;
+}
+
+/* Links */
+.links {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+.link {
+  text-decoration: none;
+  background-color: #0a3868;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.link:hover {
+  background-color: #0056b3;
+}
+
+/* Divider */
+.divider {
+  height: 2px;
+  background-color: #ddd;
+  margin: 20px 0;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Skills Section */
+.skills {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.skills i {
+  font-size: 30px;
+  color: #555;
+  transition: color 0.3s ease;
+}
+
+.skills i:hover {
+  color: #007bff; /* Cor ao passar o mouse */
+}
